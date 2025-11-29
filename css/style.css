@@ -93,10 +93,11 @@ a {
 }
 
 .information .cards {
-    padding: 50px 0;
+    padding: 50px 120px;
     display: flex;
     justify-content: center;
-    gap: 70px
+    gap: 70px;
+    flex-wrap: wrap;
 }
 
 .information .cards li {
@@ -107,8 +108,69 @@ a {
     height: 150px;
     border-radius: 8px;
     border: 2px solid #3882F6;
+    margin-bottom: 10px;
 }
 
 .information .cards .text {
     text-align: center;
+}
+
+.quote {
+    padding: 150px 340px;
+    background-color: #e5e7eB;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.quote .author {
+    padding: 0 30px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action {
+    padding: 120px 200px;
+}
+
+.action .container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action .container  .main-text {
+    font-weight: 500;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.action .container  .sub-text {
+    font-size: 18px;
+    color: #e5e7eB;
+}
+
+.action .container  button {
+    margin: 10px 0;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    height: 74px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
 }
