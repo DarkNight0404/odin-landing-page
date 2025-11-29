@@ -5,7 +5,7 @@ body {
 
 
 .header {
-    padding: 0 200px;
+    padding: 0 100px;
     height: 72px;
     background-color: #1f2937;
     display: flex;
@@ -42,7 +42,7 @@ a {
 }
 
 .hero {
-    padding: 100px 200px;
+    padding: 100px 100px;
     background-color: hsl(215, 28%, 17%);
     display: flex;
     gap: 80px
@@ -82,7 +82,7 @@ a {
 }
 
 .information {
-    padding: 50px 200px;
+    padding: 50px 100px;
 }
 
 .information .main-text {
@@ -116,7 +116,7 @@ a {
 }
 
 .quote {
-    padding: 150px 340px;
+    padding: 150px 240px;
     background-color: #e5e7eB;
 }
 
@@ -134,7 +134,7 @@ a {
 }
 
 .action {
-    padding: 120px 200px;
+    padding: 120px 100px;
 }
 
 .action .container {
