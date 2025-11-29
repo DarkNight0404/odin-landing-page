@@ -24,6 +24,8 @@ ul {
     display: flex;
     list-style: none;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -77,4 +79,36 @@ a {
     font-weight: bold;
     border-radius: 8px;
     border: none
+}
+
+.information {
+    padding: 50px 200px;
+}
+
+.information .main-text {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.information .cards {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 70px
+}
+
+.information .cards li {
+    width: 150px;
+}
+
+.information .cards .image {
+    height: 150px;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+}
+
+.information .cards .text {
+    text-align: center;
 }
